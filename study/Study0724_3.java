@@ -2,7 +2,7 @@ package com.multi.study;
 
 import java.util.Scanner;
 
-public class Study3 {
+public class Study0724_3 {
 
     public void study3() {
         Scanner sc = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Study3 {
         sc.close();
     }
     public static void main(String[] args) {
-        Study3 s = new Study3();
+        Study0724_3 s = new Study0724_3();
         s.study3();
     }
 }

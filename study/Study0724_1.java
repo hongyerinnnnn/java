@@ -2,7 +2,7 @@ package com.multi.study;
 
 import java.util.Scanner;
 
-public class Study1 {
+public class Study0724_1 {
     public void study1() {
         Scanner sc = new Scanner(System.in);
         System.out.println("점수를 입력하세요 : ");
@@ -16,7 +16,7 @@ public class Study1 {
     }
 
     public static void main(String[] args) {
-        Study1 s = new Study1();
+        Study0724_1 s = new Study0724_1();
         s.study1();
     }
 }

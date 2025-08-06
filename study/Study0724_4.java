@@ -3,7 +3,7 @@ package com.multi.study;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Study4 {
+public class Study0724_4 {
 
     public void study4() {
         Scanner sc = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class Study4 {
     }
 
     public static void main(String[] args) {
-        Study4 s = new Study4();
+        Study0724_4 s = new Study0724_4();
         s.study4();
     }
 }
