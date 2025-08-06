@@ -13,13 +13,24 @@ public class UtilEx2 {
         StringBuffer imsi=sb;
 
         sb.append("def")
-                .append("ghi")
-                .append("ikk");
-        System.out.println(sb==imsi);//true
-    }
+                .append("ghi");
+        System.out.println(sb);
+        System.out.println(sb.deleteCharAt(0));
+        System.out.println(sb);
 
+        //System.out.println(sb==imsi);//true
+    }
+    public void stringExecute3(){
+        StringBuilder sb=new StringBuilder("abc");
+        sb.append("def").append("g");
+        System.out.println(sb);
+        sb.deleteCharAt(0);
+        System.out.println(sb);
+
+
+    }
     public static void main(String[] args) {
         UtilEx2 utilEx2=new UtilEx2();
-        utilEx2.stringExecute2();
+        utilEx2.stringExecute3();
     }
 }
