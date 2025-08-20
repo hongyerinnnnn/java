@@ -75,7 +75,7 @@ public class DiaryApp {
 
     }
     private static void readDiary() {
-        String query = "SELECT * FROM diary ORDER BY created_at DESC";
+        String query = "SELECT id, title, content, created_at FROM diary ORDER BY created_at DESC";
         try(Connection connection=DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)){
             PreparedStatement preparedStatement=connection.prepareStatement(query);
             ResultSet resultSet=preparedStatement.executeQuery();
